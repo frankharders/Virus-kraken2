@@ -1,0 +1,528 @@
+script: 01_fastqc.sh
+conda environment=NGS-QC
+programm	version
+all scripts used will be documented in this file
+
+
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 03_fastqctrimmed.sh
+conda environment=NGS-QC
+programm	version
+fastqc	0.11.9
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 01_fastqc.sh
+conda environment=NGS-QC
+programm	version
+all scripts used will be documented in this file
+
+
+script: 01_fastqc.sh
+conda environment=NGS-QC
+programm	version
+all scripts used will be documented in this file
+
+
+script: 01_fastqc.sh
+conda environment=NGS-QC
+programm	version
+all scripts used will be documented in this file
+
+
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 03_fastqctrimmed.sh
+conda environment=NGS-QC
+programm	version
+fastqc	0.11.9
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 02_polish.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+all scripts used will be documented in this file
+
+
+script: 04_mapping_VirCap.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+conda environment=NGS-kma
+programm	version
+kma	1.4.9
+all scripts used will be documented in this file
+
+
+script: 04p_parse-output.sh
+conda environment=NGS-bbmap
+programm	version
+bbmap-suite	39.01
+samtools	1.16.1
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
+script: 05_kraken_krona.sh
+conda environment=NGS-kraken2
+programm	version
+kraken2	2.1.2
+krona	2.8.1
+all scripts used will be documented in this file
+
+
